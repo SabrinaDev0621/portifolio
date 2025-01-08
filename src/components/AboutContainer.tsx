@@ -4,8 +4,8 @@ const AboutContainer = () =>{
     return(
        <section className='about-container'>
             <h2>About</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Earum nobis dolor adipisci, voluptatibus maiores et magni pariatur, nesciunt laboriosam assumenda vitae repudiandae quis cum officiis quasi quod laborum, odio id?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est porro cumque vel perspiciatis eum quibusdam quis consectetur fugit animi natus excepturi velit minima, totam eius molestiae accusantium, commodi reiciendis. Neque!</p>
+            <p>Sou uma desenvolvedora Front-End apaixonada por tecnologia e inovação, dedicada a criar interfaces modernas e responsivas. Mesmo sem uma formação acadêmica formal, tenho investido constantemente em aprendizado autodidata, aprofundando meus conhecimentos em HTML, CSS, JavaScript, React e TypeScript.</p>
+            <p>Estou em busca da minha primeira oportunidade na área para aplicar e aprimorar minhas habilidades, colaborando em projetos que me desafiem e contribuam para o meu crescimento profissional.</p>
        </section>
     )
 }

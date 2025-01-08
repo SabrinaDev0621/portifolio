@@ -58,6 +58,7 @@ a, svg{
 
 img{
   max-width: 70%;
+  position: static;
   border-radius: var(--container-border-radius);
   position: absolute;
   top: -3rem;
@@ -232,6 +233,7 @@ section .about-container{
 
 .technologies-container h2{
   color: var(--text-color);
+  margin-bottom: 1rem;
   font-size: 2.2rem;
 }
 
@@ -289,59 +291,52 @@ section .about-container{
 
 @media (max-width: 1024px) {
   #portifolio h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
   }
 
   #main-content, #sidebar {
-    flex: 1 1 90%;
+    flex: 1 1 100%;
     padding: 2rem;
   }
 
   img {
-    max-width: 70%;
-    top: -2rem;
+    max-width: 30%;
+    top: -3rem;
   }
 }
+
 
 @media (max-width: 768px) {
   #portifolio {
     flex-direction: column;
     align-items: center;
-    padding: 2rem 3%;
+    padding: 2rem 5%;
   }
 
   #portifolio h1 {
-    font-size: 2.5rem;
-  }
-
-  #sidebar {
-    padding: 2rem 1rem;
-    max-width: 100%;
+    font-size: 2.8rem;
   }
 
   img {
-    max-width: 80%;
-    top: -2rem;
-  }
-
-  .info-card {
-    flex-direction: column;
-    align-items: flex-start;
+    max-width: 75%;
   }
 }
 
 @media (max-width: 480px) {
   #portifolio h1 {
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 
   .btn {
     width: 100%;
     text-align: center;
   }
+  .technology-card{
+    flex-wrap: wrap;
+  }
 
   img {
-    max-width: 100%;
+    max-width: 80%;
   }
 
   #main-content, #sidebar {

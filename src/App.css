@@ -161,6 +161,7 @@ img{
   margin-bottom: .8rem;
   border-bottom: 1px solid #444;
   width: 100%;
+  flex-wrap: wrap; 
 }
 
 .info-card h3{
